@@ -1,16 +1,18 @@
-# myapp
+# Simulador de Investimentos
+- Este projeto em Flutter é um simulador de investimentos, permitindo que os usuários insiram o valor de investimento mensal, o período de aplicação (em meses) e a taxa de juros mensal. Com base nesses dados, o aplicativo calcula e exibe o valor total acumulado ao final do período, tanto sem juros quanto com a aplicação de juros compostos.
 
-A new Flutter project.
+![Print0](./assets/insvestimentos.png)
 
-## Getting Started
+# Tecnologias
+- Flutter
+- Dart
+- vsCode
+- Firebase Studio
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Como testar
+- Clone este repositório
+- Abra com VsCode ou Android Studio, com um terminal instale as dependências e execute no emulador ou navegador
+```bash
+flutter pub get
+flutter run
+```
